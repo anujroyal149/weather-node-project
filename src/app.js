@@ -70,7 +70,7 @@ app.get('/about', (req, res)=>{
     res.render('about', {
         title: 'About us',
         name: 'Anuj',
-        message: 'we are no. 1 weather service provider',
+        message: 'This is a test project.',
     })
 })
 
